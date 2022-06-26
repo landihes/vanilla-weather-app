@@ -17,7 +17,7 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <title>Weather App</title>
   </head>
   <body>
@@ -50,13 +50,12 @@
           <div class="weatherInfo">
             <div class="row">
               <div class="col-6">
-                <h1>London</h1>
+                <h1 id="city"></h1>
                 <ul>
-                  <li><span id="date-input">Sunday 11:16</span></li>
+                  <li>Last updated: <span id="date"></span></li>
                 </ul>
 
                 <ul>
-                  <li id="description"></li>
                   <li>Humidity: <span id="humidity"></span>%</li>
                   <li>Wind: <span id="wind"></span> km/h</li>
                 </ul>
@@ -65,8 +64,9 @@
                 <div class="temperature-container d-flex justify-content-end">
                   <canvas width="52" height="52"></canvas>
                   <div>
-                    <span class="temperature" id="temp">22</span>
+                    <span class="temperature" id="temperature">22</span>
                     <span class="unit">°C</span>
+                    <li id="description"></li>
                   </div>
                 </div>
               </div>

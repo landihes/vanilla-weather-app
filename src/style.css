@@ -28,6 +28,9 @@
   list-style: none;
 }
 
+li::first-letter {
+  text-transform: capitalize;
+}
 .app {
   max-width: 800px;
   margin: 60px auto;
