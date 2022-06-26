@@ -48,7 +48,7 @@ let currentTime = new Date();
 let cityDate = document.querySelector("#date-input");
 cityDate.innerHTML = formatDate(currentTime);
 
-// change location + weather
+// change location +
 
 function displayWeatherCondition(response) {
   console.log(response.data.name);
