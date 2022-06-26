@@ -94,3 +94,12 @@ li::first-letter {
   text-align: center;
   color: e7eaf6(39, 33, 66, 0.4);
 }
+
+.temperature-container .active {
+  color: #e7eaf6;
+  cursor: default;
+}
+
+.temperature-container .active:hover {
+  text-decoration: none;
+}
