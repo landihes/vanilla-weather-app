@@ -54,7 +54,7 @@ function search(city) {
 }
 
 function handleSubmit(event) {
-  event.preventDefult();
+  event.preventDefault();
   let cityInputElement = document.querySelector("#city-input");
   search(cityInputElement.value);
 }
@@ -76,7 +76,7 @@ function displayFharenheitTemperature(event) {
 }
 
 function displayCelsiusTemperature(event) {
-  preventDefault();
+  event.preventDefault();
   celsiusLink.classList.add("active");
   fahrenheitLink.classList.remove("active");
   let temperatureElement = document.querySelector("#temperature");
