@@ -77,15 +77,20 @@ li::first-letter {
   padding-top: 30px;
 }
 .WeatherForecastPreview {
-  color: #f9f7fe;
+  color: aqua;
   font-size: 12px;
 }
 
-.weatherForecast .forecast-time {
+.weather-forecast {
+  color: red;
+  font-size: 12px;
   font-size: 15px;
   line-height: 20px;
   text-align: center;
-  color: e7eaf6(39, 33, 66, 0.4);
+}
+
+.weatherForecast .forecast-date {
+  color: aqua;
 }
 
 .weatherForecast .forecast-temperature {
@@ -124,4 +129,8 @@ li::first-letter {
   position: relative;
   top: 5px;
   left: 29px;
+}
+
+.forecast-temperature-min {
+  opacity: 0.2x;
 }
