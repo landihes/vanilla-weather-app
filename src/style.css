@@ -99,6 +99,14 @@ li::first-letter {
   color: e7eaf6(39, 33, 66, 0.4);
 }
 
+.units {
+  position: relative;
+  font-size: 14px;
+  font-weight: 200;
+  top: -32px;
+  color: #f2f2f1;
+}
+
 .temperature-container .active {
   color: #e7eaf6;
   cursor: default;
@@ -106,4 +114,10 @@ li::first-letter {
 
 .temperature-container .active:hover {
   text-decoration: none;
+}
+
+.description {
+  position: relative;
+  top: 5px;
+  left: 29px;
 }
