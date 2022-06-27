@@ -22,7 +22,7 @@
 .weather li {
   font-weight: 500;
   margin-bottom: 5px;
-  color: e7eaf6(39, 33, 66, 0.4);
+  color: #e7eaf6;
   font-size: 16px;
   line-height: 20px;
   list-style: none;
@@ -31,6 +31,15 @@
 li::first-letter {
   text-transform: capitalize;
 }
+
+.weather footer {
+  font-size: 10px;
+  margin-top: 40px;
+  line-height: 18px;
+  text-align: center;
+  color: e7eaf6(39, 33, 66, 0.4);
+}
+
 .app {
   max-width: 800px;
   margin: 60px auto;
@@ -59,12 +68,36 @@ li::first-letter {
 
 .temperature {
   color: #e7eaf6;
-  font-weight: 400;
   margin-left: 10px;
+  margin-top: 30px;
   font-weight: 700;
   font-size: 80px;
   line-height: 1;
 }
+
+.description {
+  position: relative;
+  top: 5px;
+  left: 29px;
+}
+
+.temperature-container .units {
+  position: relative;
+  font-size: 14px;
+  font-weight: 200;
+  top: -32px;
+  color: #f2f2f1;
+}
+
+.temperature-container .active {
+  color: #f2f2f1;
+  cursor: default;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
+}
+
 .weatherInfo {
   margin-top: 20px;
 }
@@ -76,61 +109,19 @@ li::first-letter {
   padding-bottom: 58px;
   padding-top: 30px;
 }
-.WeatherForecastPreview {
-  color: aqua;
-  font-size: 12px;
-}
 
 .weather-forecast {
-  color: red;
-  font-size: 12px;
-  font-size: 15px;
-  line-height: 20px;
-  text-align: center;
-}
-
-.weatherForecast .forecast-date {
-  color: aqua;
-}
-
-.weatherForecast .forecast-temperature {
-  font-style: normal;
-  font-size: 15px;
-  line-height: 1.5;
-  font-weight: 700;
-}
-
-.weather footer {
-  font-size: 10px;
   margin-top: 40px;
-  line-height: 18px;
   text-align: center;
-  color: e7eaf6(39, 33, 66, 0.4);
-}
-
-.units {
-  position: relative;
-  font-size: 14px;
-  font-weight: 200;
-  top: -32px;
   color: #f2f2f1;
+  font-size: 13px;
+  opacity: 0.8;
 }
 
-.temperature-container .active {
-  color: #e7eaf6;
-  cursor: default;
-}
-
-.temperature-container .active:hover {
-  text-decoration: none;
-}
-
-.description {
-  position: relative;
-  top: 5px;
-  left: 29px;
+.forecast-date {
+  font-size: 16px;
 }
 
 .forecast-temperature-min {
-  opacity: 0.2x;
+  opacity: 0.7;
 }

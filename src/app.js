@@ -52,7 +52,7 @@ function displayForecast(response) {
         forecastHTML +
         `
       <div class="col">
-        <div class="WeatherForecastPreview">
+        <div>
             <div class="forecast-date"> ${formatDay(forecastDay.dt)} </div>
    
                 <img src="http://openweathermap.org/img/wn/${
@@ -60,10 +60,10 @@ function displayForecast(response) {
                 }@2x.png" alt="" width="42" />
                   <div class="forecast-temperature">
                     <span class="forecast-temperature-max">
-                    ${Math.round(forecastDay.temp.max)}</span>
+                    ${Math.round(forecastDay.temp.max)}° </span>
                     <span class="forecast-temperature-min"> ${Math.round(
                       forecastDay.temp.min
-                    )}</span>
+                    )}° </span>
              </div>
             </div>
         </div>
