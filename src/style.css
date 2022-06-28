@@ -41,15 +41,11 @@ li::first-letter {
 }
 
 .root {
-  background-image: url(./media/weather2.jpg);
-  max-width: none;
+  background-image: url(./media/background2.jpg);
   padding: 100px;
-  background-repeat: repeat-x;
-}
-
-.app {
-  max-width: 800px;
-  margin: 60px auto;
+  background-repeat: no-repeat;
+  background-position: 20px 30px;
+  background-size: 1000px 1000px;
 }
 
 .container,
@@ -64,15 +60,14 @@ li::first-letter {
   max-width: 700px;
   padding: 40px;
   margin: 20px;
-  color: #878787;
   background: linear-gradient(
     112.1deg,
     rgb(32, 38, 57) 11.4%,
     rgb(63, 76, 119) 70.2%
   );
-  opacity: 0.9s;
   border: transparent;
   border-radius: 25px;
+  opacity: 0.7;
 }
 
 .temperature {
@@ -132,5 +127,5 @@ li::first-letter {
 }
 
 .forecast-temperature-min {
-  opacity: 0.7;
+  opacity: 0.9;
 }
