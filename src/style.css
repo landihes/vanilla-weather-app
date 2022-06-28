@@ -40,6 +40,13 @@ li::first-letter {
   color: e7eaf6(39, 33, 66, 0.4);
 }
 
+.root {
+  background-image: url(./media/weather2.jpg);
+  max-width: none;
+  padding: 100px;
+  background-repeat: repeat-x;
+}
+
 .app {
   max-width: 800px;
   margin: 60px auto;
@@ -62,6 +69,7 @@ li::first-letter {
     rgb(32, 38, 57) 11.4%,
     rgb(63, 76, 119) 70.2%
   );
+  opacity: 0.7;
   border: transparent;
   border-radius: 25px;
 }
