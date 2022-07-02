@@ -46,6 +46,7 @@ function displayForecast(response) {
 
   let forecastHTML = `<div class="row">`;
   let days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
+  // maybe change the order of the dates or use longer phrases
   forecast.forEach(function (forecastDay, index) {
     if (index < 6) {
       forecastHTML =
@@ -108,6 +109,8 @@ function displayTemperature(response) {
   getForecast(response.data.coord);
 }
 
+// clean code
+
 function search(city) {
   let apiKey = "75bbb29ab49fdad9555644e1ff00d35d";
   let apiUlr = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
@@ -119,8 +122,6 @@ function handleSubmit(event) {
   let cityInputElement = document.querySelector("#city-input");
   search(cityInputElement.value);
 }
-
-//
 
 let form = document.querySelector("#search-form");
 form.addEventListener("submit", handleSubmit);
