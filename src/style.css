@@ -13,7 +13,7 @@ footer {
   line-height: 18px;
   text-align: center;
   color: e7eaf6(39, 33, 66, 0.4);
-  opacity: 0.9;
+  opacity: 0.8;
   font-family: "Open Sans", sans-serif;
 }
 .weather ul {
@@ -61,7 +61,7 @@ li::first-letter {
   );
   border: transparent;
   border-radius: 25px;
-  opacity: 0.68;
+  opacity: 0.7;
 }
 
 .temperature {
