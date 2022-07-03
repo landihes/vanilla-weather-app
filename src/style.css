@@ -7,21 +7,18 @@
   color: #e7eaf6;
 }
 
-.weather footer {
-  font-size: 14px;
+footer {
+  font-size: 12px;
   margin-top: 40px;
   line-height: 18px;
   text-align: center;
   color: e7eaf6(39, 33, 66, 0.4);
-  opacity: 0.9px;
+  opacity: 0.9;
+  font-family: "Open Sans", sans-serif;
 }
 .weather ul {
   margin: 0;
   padding: 0;
-}
-
-.btn {
-  color: steelblue;
 }
 
 .weather li {
@@ -64,7 +61,7 @@ li::first-letter {
   );
   border: transparent;
   border-radius: 25px;
-  opacity: 0.5;
+  opacity: 0.68;
 }
 
 .temperature {
@@ -115,7 +112,7 @@ li::first-letter {
   margin-top: 40px;
   text-align: center;
   color: #f2f2f1;
-  font-size: 13px;
+  font-size: 14px;
   opacity: 0.8;
 }
 
@@ -124,5 +121,5 @@ li::first-letter {
 }
 
 .forecast-temperature-min {
-  opacity: 0.8px;
+  color: #a2a8d3;
 }
