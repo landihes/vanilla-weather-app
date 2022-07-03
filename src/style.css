@@ -7,13 +7,12 @@
   color: #e7eaf6;
 }
 
-footer {
+.weather footer {
   font-size: 12px;
   margin-top: 40px;
   line-height: 18px;
   text-align: center;
-  color: e7eaf6(39, 33, 66, 0.4);
-  opacity: 0.8;
+  color: black;
   font-family: "Open Sans", sans-serif;
 }
 .weather ul {
